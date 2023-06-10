@@ -25,9 +25,9 @@ int main()
 
 	dowagn(0);
 	IMAGE move;
-	// ¶¨ÒåÊó±êÏûÏ¢
+	// mousekey message
 	ExMessage m;
-	// ³õÊ¼»¯Í¼ĞÎ´°¿Ú
+	// windows
 
 	int w = 3, h = 3;
 	loadimage(&move, _T("1.jpg"), w, h);
@@ -42,8 +42,8 @@ int main()
 					goto pd;
 				else
 					pibok(370, 100, 600, 150,true,RGB(i,i,i),WHITE,15);
-					//cleardevice();//ÇåÆÁ£¨È¡¾öÓÚ±³¾°É«£©
-					Sleep(3);//ÑÓÊ±15ms
+					//cleardevice();//clear the screenï¼ˆbackground inkï¼‰
+					Sleep(3);//wait 15ms
 
 			}
 		else
@@ -54,8 +54,8 @@ int main()
 					goto pd;
 				else
 					pibok(370, 100, 600, 150, true, RGB(i, i, i), WHITE, 15);
-				//cleardevice();//ÇåÆÁ£¨È¡¾öÓÚ±³¾°É«£©
-					Sleep(3);//ÑÓÊ±15ms
+				//cleardevice();//æ¸…å±ï¼ˆå–å†³äºèƒŒæ™¯è‰²ï¼‰
+					Sleep(3);//å»¶æ—¶15ms
 
 			}*/;
 			//pd:
