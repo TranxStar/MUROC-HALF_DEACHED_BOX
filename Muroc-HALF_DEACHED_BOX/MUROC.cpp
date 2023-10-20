@@ -35,7 +35,7 @@ int main()
 	while (true) {
 
 		m = getmessage(EX_MOUSE | EX_KEY);
-		i/*f(m.x >= 370 && m.x <= 600 && m.y >= 150 && m.y <= 100)
+		/*if(m.x >= 370 && m.x <= 600 && m.y >= 150 && m.y <= 100)
 			for (i = 0; i == 254; i += 5)
 			{
 				if (i == 254)
